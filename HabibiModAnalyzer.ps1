@@ -102,7 +102,6 @@ $cheatStrings = @(
 	"JumpReset",
 	"LegitTotem",
 	"PingSpoof",
-	"Reach",
 	"SelfDestruct",
 	"ShieldBreaker",
 	"TriggerBot",
