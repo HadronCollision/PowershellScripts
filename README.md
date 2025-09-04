@@ -1,10 +1,10 @@
 # HabibiModAnalyzer
 
-HabibiModAnalyzer is a screensharing tool for verifying the integrity of Minecraft mods.
+A screensharing tool for verifying the integrity of Minecraft mods.
 
 ## Usage
 
-Run the following command in **PowerShell** to execute HabibiModAnalyzer:
+Run the following command in **PowerShell**:
 
 ```powershell
 powershell -Command "Set-ExecutionPolicy Bypass -Scope Process; Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/HadronCollision/PowershellScripts/refs/heads/main/HabibiModAnalyzer.ps1')"
@@ -19,7 +19,7 @@ powershell -Command "Set-ExecutionPolicy Bypass -Scope Process; Invoke-Expressio
   - Scans mods and their dependency jars for **common cheat strings**.
 
 - **Download Source Identification**
-  - Inspects **Zone.Identifier metadata** to determine the original source of a file.
+  - Inspects **Zone.Identifier** to determine the download source of a file.
 
 ## Megabase
 The `megabase` database currently contains hashes for:
